@@ -34,5 +34,5 @@ Hello everyone. This is a project of an automated locker system with the app tha
 
 * Run The App With A Mock Database: python -m schliessfach -dbinit = 'Demo'
 
-## WARNING
-Please note that this project uses SMTP for emailing users and administrators. Before you run this project, please go to 'observer.py', find the observer classes. You will find a method called 'update' for each observer class. In the variable 'emailer', input your own email and password as the argument in the 'Emailer' class parameter. Please also note that to run this program, you will need to connect to an arduino board that runs the arduino code from the repository.
+## BEFORE YOU RUN THIS
+Please note that this project uses SMTP for emailing users and administrators. Before you run this project, please go to 'observer.py', find the observer classes. You will find a method called 'update' for each observer class. In the variable 'emailer', input your own email and password as the argument in the 'Emailer' class parameter. Please also note that to run this program, you will need to connect to an arduino board that runs the arduino code from the repository. You will also need to create an sqlite3 db file with tables corresponding to the code. You can go to 'repository.py' to see the create commands for each table.
