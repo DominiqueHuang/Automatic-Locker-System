@@ -9,8 +9,8 @@
 Hello everyone. This is a project of an automated locker system with the app that receives and notifies users upon package arrival.
 
 ### Requirements
-* Python 3.10.0 (or other Python 3 builds)
-* Arduino IDE 1.8.16
+* Python 3.10.0 (or other higher version of Python 3 builds)
+* Arduino IDE 1.8.16 (or higher)
 * sqlite3
 
 ### Dependencies 
@@ -35,4 +35,4 @@ Hello everyone. This is a project of an automated locker system with the app tha
 * Run The App With A Mock Database: python -m schliessfach -dbinit = 'Demo'
 
 ## WARNING
-Please note that this project uses SMTP for emailing users and administrators. Before you run this project, please go to 'observer.py', find the observer classes. You will find a method called 'update' for each observer class. In the variable 'emailer', input your own email and password as the argument in the 'Emailer' class parameter.
+Please note that this project uses SMTP for emailing users and administrators. Before you run this project, please go to 'observer.py', find the observer classes. You will find a method called 'update' for each observer class. In the variable 'emailer', input your own email and password as the argument in the 'Emailer' class parameter. Please also note that to run this program, you will need to connect to an arduino board that runs the arduino code from the repository.
